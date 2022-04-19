@@ -18,8 +18,8 @@
     "paths": {
       "@/components": ["components"],
       "@/icons": ["icons"],
-      "@/services": ["core/services"],
-      "@/types":["core/types"],
+      "@/services": ["./core/services"],
+      "@/types":["./core/types"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
